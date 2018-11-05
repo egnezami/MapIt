@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="MaptIt.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MaptIt"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+	<Grid>
+		<Button x:Name="GetLocation" Content="Get Location" HorizontalAlignment="Center" Margin="0,169,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.792,-1.068" Width="446" FontSize="72"/>
+		<TextBlock x:Name="location" HorizontalAlignment="Left" Margin="230,340,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36"/>
+
+	</Grid>
+</Page>
